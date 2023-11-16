@@ -1,0 +1,28 @@
+// :root {
+
+// }
+html,body,#root {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  width: 100%;
+  height: 100%;
+}
+.Flow {
+  display: flex;
+  height: 100%;
+}
+.Flowinner,.button-wrapper {
+  border: 1px solid black;
+}
+.Flowinner {
+  width: 80%;
+}
+.button-wrapper {
+  width: 20%;
+}
+.flow-button {
+  margin: 10px;
+  display: block;
+}
